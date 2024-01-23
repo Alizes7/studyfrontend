@@ -1,0 +1,47 @@
+header {
+    width: 0 auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li {
+    margin: 0 15px;
+    color: #daa520; 
+}
+
+header img {
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.botao-voltar {
+    position: absolute;
+    left: 10px; 
+    top: 10px; 
+    text-decoration: none;
+    color: #daa520; 
+}
+
+li a {
+    text-decoration: none;
+}
+
+.Santos-logo {
+    order: -1; /* Coloca a imagem no início do layout flexível (à esquerda) */
+    margin-right: 1024px; /* Adicione margem à direita para separar a imagem do menu */
+}
+
+a:hover {
+    text-decoration: underline;
+}

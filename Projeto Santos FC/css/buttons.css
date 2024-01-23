@@ -1,0 +1,17 @@
+.btn {
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+
+.btn.btn-white {
+    background: #daa520;
+    color: #ffffff;
+}
+
+.btn.botao-voltar {
+    background: #291d00;
+    color: #daa520;
+    margin-top: 10px;
+}
+
